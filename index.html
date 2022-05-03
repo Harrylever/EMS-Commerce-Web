@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EMS</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <section>
+        <div class="landing_page">
+            <div class="container">
+                <nav class="navbar">
+                    <div class="navbar-nav">
+                        <div class="logo">
+                            <img src="./Project Files/Images/EMS.svg" alt="">
+                        </div>
+                        <div class="nav-links">
+                            <a class="nav-item" href="#"><p>Intro</p></a>
+                            <a class="nav-item" href="#"><p>About</p></a>
+                            <a class="nav-item" href="#"><p>Shop</p></a>
+                        </div>
+                        <!-- <div class="cart-logo" id="cart-logo" onclick="displayCartDetails()"> -->
+                        <div class="cart-logo" id="cart-logo">
+                            <img class="cart-logo-img" src="./Project Files/Images/cart.svg" alt=""><h3 id="cart_value">0</h3>
+                        </div>
+                    </div>
+                </nav>
+                <div class="landing_page_content">
+                    <div>
+                        <div class="landing_page_main_text landing_page_sub_content">
+                            <h4>the e-millenial store</h4>
+                        </div>
+                        <div class="landing_page_main_img_container landing_page_sub_content">
+                            <img class="landing_page_main_img" src="./Project Files/Images/heroImage.png" alt="">
+                        </div>
+                    </div>
+                    <div class="shop_btn_container">
+                        <button class="shop_btn">SHOP NOW</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="about">
+            <p>E-Millenial Store is an hypothetical online store for gadgets we believe every <br> 'Millenial' or 'Gen-Z' should have today. We've got mobile phones, laptops, smartwatches and other gadgets. Explore all our gadgets and choose the <br>ones that suit you.</p>
+        </div>
+        <div class="gadgets_showcase">
+            <div class="gadgets_showcase_text">our gadgets</div>
+            <div class="grid_container">
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product1.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>500,000</div>
+                        </div>
+                    </div>
+                    <h4>SAMSUNG TV</h4>
+                    <button id="product1" class="grid_container_btn">ADD TO CART</button>
+                </div>
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product2.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>250,000</div>
+                        </div>
+                    </div>
+                    <h4>PIXEL 4a</h4>
+                    <button id="product2" class="grid_container_btn">ADD TO CART</button>
+                </div>
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product3.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>300,000</div>
+                        </div>
+                    </div>
+                    <h4>PS 5</h4>
+                    <button id="product3" class="grid_container_btn">ADD TO CART</button>
+                </div>
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product4.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>800,000</div>
+                        </div>
+                    </div>
+                    <h4>MACBOOK AIR</h4>
+                    <button id="product4" class="grid_container_btn">ADD TO CART</button>
+                </div>
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product5.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>95,000</div>
+                        </div>
+                    </div>
+                    <h4>APPLE WATCH</h4>
+                    <button id="product5" class="grid_container_btn">ADD TO CART</button>
+                </div>
+                <div class="grid_container_item">
+                    <div class="image">
+                        <img class="image__img" src="./Project Files/Images/product6.png" alt="">
+                        <div class="image__overlay">
+                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            <div class="image__title"><span class="strike-through">N</span>75,000</div>
+                        </div>
+                    </div>
+                    <h4>AIR PODS</h4>
+                    <button id="product6" class="grid_container_btn">ADD TO CART</button>
+                </div>
+            </div>
+        </div>
+        <div class="footer">
+            <div class="footer_sub_container">
+                <div class="footer_item">
+                    <img src="./Project Files/Images/EMS.svg" alt="">
+                </div>
+                <div class="footer_item">
+                    <p>Designed and crafted by a Frontend Ninja</p>
+                </div>
+            </div>
+        </div>
+    
+        <div class="cart_order_container" id="cart_order_container">
+            <div class="cart_order" id="cart_order">
+                <!-- <a href="javascript: reload()" style="text-decoration: none; color: black; font-family: inherit;">Click to reload</a> -->
+                    <div class="cart_order_table" id="updating_EL">
+                        <table class="cart_order_table01">
+                            <tr class="tr_one">
+                                <th style="width: 7%; padding-left: 7px;">S/N</th>
+                                <th style="width: 25%; padding-left: 16px;">Item</th>
+                                <th style="width: 25%;">Price</th>
+                                <th style="width: 15%;">Quantity</th>
+                                <th style="width: 25%;"></th>
+                            </tr>
+                        </table>
+                        <table id="cart_list">
+                            <tr>
+                                <td style="width: 7%;">yellow</td>
+                                <td style="width: 25%;">yellow</td>
+                                <td style="width: 25%;">yellow</td>
+                                <td style="width: 25%;">yellow</td>
+                                <td style="width: 25%;">yellow</td>
+                            </tr>
+                        </table>
+                    </div>
+                <div class="cart_order_details_input_container">
+                    <form action="">
+                        <div>
+                            <div>
+                                <label for="fullname"></label>
+                                <input type="text" class="cart_order_details_input" placeholder="Enter your Full Name" required>
+                            </div>
+                            <div>
+                                <label for="email"></label>
+                                <input type="email" class="cart_order_details_input" placeholder="Email Address..." required>
+                            </div>
+                            <div>
+                                <label for="phoneNumber"></label>
+                                <input type="text" class="cart_order_details_input" placeholder="Phone Number..." required>
+                            </div>
+                        </div>
+                        <div class="cart_order_summary">
+                            <div><h5>Total Amount to be Paid</h5></div>
+                            <div>
+                                <div class="cart_total_price" id="cart_total_price"><span class="strike-through">N</span><span id="total_price"></span></div>
+                            </div>
+                        </div>
+                        <div class="cart_order_actions">
+                            <button type="button" class="cart_order_actions_btn ctn_shpin" id="ctn_shpin">Continue Shopping</button>
+                            <button class="cart_order_actions_btn chckot">Checkout</button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    
+    </section>
+    
+
+
+    <script src="./cart_display.js"></script>
+    <script src="./script.js"></script>
+</body>
+</html>
