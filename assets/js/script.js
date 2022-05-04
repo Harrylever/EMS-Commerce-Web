@@ -392,10 +392,12 @@ btn1.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn1.style.backgroundColor = '#ff9a3d';
         btn1.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[0]);
         cart_value.innerHTML = cart.length;
+        btn1.style.backgroundColor = '#ffddbf';
         btn1.innerHTML = "REMOVE FROM CART";
     }
 })
@@ -408,10 +410,12 @@ btn2.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn2.style.backgroundColor = '#ff9a3d';
         btn2.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[1])
         cart_value.innerHTML = cart.length;
+        btn2.style.backgroundColor = '#ffddbf';
         btn2.innerHTML = "REMOVE FROM CART";
     }
 })
@@ -424,10 +428,12 @@ btn3.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn3.style.backgroundColor = '#ff9a3d';
         btn3.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[2])
         cart_value.innerHTML = cart.length;
+        btn3.style.backgroundColor = '#ffddbf';
         btn3.innerHTML = "REMOVE FROM CART";
     }
 })
@@ -440,10 +446,12 @@ btn4.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn4.style.backgroundColor = '#ff9a3d';
         btn4.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[3])
         cart_value.innerHTML = cart.length;
+        btn4.style.backgroundColor = '#ffddbf';
         btn4.innerHTML = "REMOVE FROM CART";
     }
 })
@@ -456,10 +464,12 @@ btn5.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn5.style.backgroundColor = '#ff9a3d';
         btn5.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[4])
         cart_value.innerHTML = cart.length;
+        btn5.style.backgroundColor = '#ffddbf';
         btn5.innerHTML = "REMOVE FROM CART";
     }
 })
@@ -472,10 +482,12 @@ btn6.addEventListener('click', () => {
             }
         }
         cart_value.innerHTML = cart.length;
+        btn6.style.backgroundColor = '#ff9a3d';
         btn6.innerHTML = "ADD TO CART";
     } else {
         cart.push(products[5])
         cart_value.innerHTML = cart.length;
+        btn6.style.backgroundColor = '#ffddbf';
         btn6.innerHTML = "REMOVE FROM CART";
     }
 })
