@@ -78,115 +78,109 @@ let value6 = 1;
 function add() {
     document.getElementById('add_btn0').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo')
         value1 = value1 + 1;
         document.getElementById('quantity0').innerHTML = value1;
         document.getElementById('item_Price0').innerHTML = value1 * cart[0].price;
         cart[0].quantity = value1;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
 
     document.getElementById('add_btn1').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo againa')
         value2 = value2 + 1;
         document.getElementById('quantity1').innerHTML = value2;
         document.getElementById('item_Price1').innerHTML = value2 * cart[1].price;
         cart[1].quantity = value2;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
 
     document.getElementById('add_btn2').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo againa')
         value3 = value3 + 1;
         document.getElementById('quantity2').innerHTML = value3;
         document.getElementById('item_Price2').innerHTML = value3 * cart[2].price;
         cart[2].quantity = value3;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
 
     document.getElementById('add_btn3').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo againa')
         value4 = value4 + 1;
         document.getElementById('quantity3').innerHTML = value4;
         document.getElementById('item_Price3').innerHTML = value4 * cart[3].price;
         cart[3].quantity = value4;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
 
     document.getElementById('add_btn4').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo againa')
         value5 = value5 + 1;
         document.getElementById('quantity4').innerHTML = value5;
         document.getElementById('item_Price4').innerHTML = value5 * cart[4].price;
         cart[4].quantity = value5;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
     
     document.getElementById('add_btn5').onclick = function() {
         total_price_num3 = 0;
-        console.log('helloo againa')
         value6= value6 + 1;
         document.getElementById('quantity5').innerHTML = value6;
         document.getElementById('item_Price5').innerHTML = value6 * cart[5].price;
         cart[5].quantity = value6;
         for (let a = 0; a < cart.length; a++) {
             total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-            console.log('total_price_var2: ' + total_price_var2);
+            // console.log('total_price_var2: ' + total_price_var2);
             total_price_num2 = Math.floor(total_price_var2);
-            console.log('total_price_num2: ' + total_price_num2);
+            // console.log('total_price_num2: ' + total_price_num2);
             total_price_num3 += total_price_num2;
-            console.log('total_price_num3: ' + total_price_num3);
+            // console.log('total_price_num3: ' + total_price_num3);
             total_price_var_REAL.innerHTML = total_price_num3;
-            console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+            // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
         }
     };
     
@@ -208,13 +202,13 @@ function minus() {
             cart[0].quantity = value1;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         };    
     };
@@ -231,13 +225,13 @@ function minus() {
             cart[1].quantity = value2;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         }
     }
@@ -253,13 +247,13 @@ function minus() {
             cart[2].quantity = value3;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         }
     }
@@ -275,13 +269,13 @@ function minus() {
             cart[3].quantity = value4;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         }
     }
@@ -297,13 +291,13 @@ function minus() {
             cart[4].quantity = value5;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         }
     }
@@ -319,13 +313,13 @@ function minus() {
             cart[5].quantity = value6;
             for (let a = 0; a < cart.length; a++) {
                 total_price_var2 = document.getElementById(`item_Price${a}`).innerHTML;
-                console.log('total_price_var2: ' + total_price_var2);
+                // console.log('total_price_var2: ' + total_price_var2);
                 total_price_num2 = Math.floor(total_price_var2);
-                console.log('total_price_num2: ' + total_price_num2);
+                // console.log('total_price_num2: ' + total_price_num2);
                 total_price_num3 += total_price_num2;
-                console.log('total_price_num3: ' + total_price_num3);
+                // console.log('total_price_num3: ' + total_price_num3);
                 total_price_var_REAL.innerHTML = total_price_num3;
-                console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
+                // console.log('total_price_var_REAL: ' + total_price_var_REAL.innerHTML);
             };
         }    
     }
@@ -341,7 +335,6 @@ let htmlTR = '';
 
 let cartUpdater = () => {
     let total_price_num = 0;
-    let cart_item_quantity;
     cart_list.innerHTML = "";
     htmlTR = '';
     numy = 0;
@@ -351,19 +344,17 @@ let cartUpdater = () => {
         
         cart_list.innerHTML = "";
         numy++;
-        // remBtn.id += `rem_display_btn${numy}`;
         htmlTR += `<tr id="htmlTR_ID${numy}">`;
         htmlTR += `<td style="width: 7%;">${numy}</td>`;
         htmlTR += `<td style="width: 25%;">${cart[a].name}</td>`;
         htmlTR += `<td style="width: 25%;"><span id="item_Price${a}">${cart[a].price}</span></td>`;
         htmlTR += `<td style="width: 15%; padding-left: 23px;"><button id="minus_btn${a}" onclick="minus()">-</button><span id="quantity${a}">${cart[a].quantity}</span><button id="add_btn${a}" onclick="add()">+</button></td>`;
         htmlTR += '</tr>';
-        // console.log(htmlTR)
         cart_list.innerHTML += htmlTR;
         total_price_num += cart[a].price;
     }
     
-    console.log(total_price_num);
+    // console.log(total_price_num);
     total_price_var_REAL.innerHTML = total_price_num.toString();
 
     for(let b = 0; b < cart.length; b++) {
@@ -389,84 +380,8 @@ let cartUpdater = () => {
     
 }
 
-// Answer try 1
-// rem_display_btn1.addEventListener('click', () => {
-//     let rem_display_btn1 = document.getElementById('rem_display_btn1');
-//     let parentEl = rem_display_btn1.parentElement.parentElement;
-//     parentEl.remove();
-// });
-
-// Answer Try 2 
-// Dropped: let rem_display_btn1 = document.getElementById('rem_display_btn1'); 
-// document.getElementById('rem_display_btn1').addEventListener('click', (e) => {
-//     let parentEl = e.currentTarget.parentElement.parentElement;
-//         // Do not use 'this' to reference the button;
-//         //   Cf. https://stackoverflow.com/a/46270771/
-//     parentEl.remove();
-// });
-
-// Answer Try 3
-// document.addEventListener("click", (e) => {
-//     if (!e.target.matches("#rem_display_btn1")) return;
-//     e.target.parentElement.remove()
-// });
-
-// Answer Try 4
-// document.addEventListener('DOMContentLoaded', () => {
-//     // Dropped: let rem_display_btn1 = document.getElementById('rem_display_btn1'); 
-//     document.getElementById('rem_display_btn1').addEventListener('click', (e) => {
-//          let parentEl = e.currentTarget.parentElement.parentElement;
-//              // Do not use 'this' to reference the button;
-//              //   Cf. https://stackoverflow.com/a/46270771/
-//          parentEl.remove();
-//     });
-//  });
-
-// function reload() {
-//     // log.textContent ='';
-//     window.setTimeout(() => {
-//         document.location.reload(true);
-//         // window.location.reload(true);
-//     }, 200);
-// }
-
-
-// function reload(){
-//     var container = document.getElementById("updating_EL");
-//     var content = container.innerHTML;
-//     container.innerHTML = content;
-//     console.log(container)
-//     // this line is to watch the result in console , you can remove it later
-//     console.log("Refreshed");
-// }
-
-// setInterval(() => {
-//     if (document.getElementById('rem_display_btn1')) {
-
-// let rem_display_btn1 = document.getElementById('rem_display_btn1');
-// rem_display_btn1.addEventListener('click', () => {
-//     let parentEl = rem_display_btn1.parentElement.parentElement;
-//     parentEl.remove();
-// });
-//     } else {
-//         console.log('Not There')
-//     }
-// }, 4000);
-
-// setTimeout(() => {
-//     if (document.getElementById('rem_display_btn1')) {
-//         let rem_display_btn1 = document.getElementById('rem_display_btn1');
-//         rem_display_btn1.addEventListener('click', () => {
-//             let parentEl = rem_display_btn1.parentElement.parentElement;
-//             parentEl.remove();
-//         });
-//     } else {
-//         console.log('Not There')
-//     }    
-// }, 9000);
 
 // Attach HTML table to cart list
-
 
 
 btn1.addEventListener('click', () => {
@@ -570,7 +485,7 @@ let ctn_shpin2 = document.getElementById('ctn_shpin');
 
 ctn_shpin2.addEventListener('click', () => {
     cart_list.innerHTML = "";
-    console.log('done')
+    // console.log('done')
 })
 
 

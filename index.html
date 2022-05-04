@@ -5,7 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>EMS</title>
-    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/form_validation.css">
+    <link rel="stylesheet" href="./assets/css/order_complete_modal.css">
+    <script defer src="./assets/js/form_validation.js"></script>
 </head>
 <body>
     <section>
@@ -28,7 +31,7 @@
                     </div>
                 </nav>
                 <div class="landing_page_content">
-                    <div>
+                    <div class="first_div_landing_page_content">
                         <div class="landing_page_main_text landing_page_sub_content">
                             <h4>the e-millenial store</h4>
                         </div>
@@ -52,7 +55,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product1.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>500,000</div>
                         </div>
                     </div>
@@ -63,7 +66,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product2.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>250,000</div>
                         </div>
                     </div>
@@ -74,7 +77,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product3.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>300,000</div>
                         </div>
                     </div>
@@ -85,7 +88,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product4.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>800,000</div>
                         </div>
                     </div>
@@ -96,7 +99,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product5.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>95,000</div>
                         </div>
                     </div>
@@ -107,7 +110,7 @@
                     <div class="image">
                         <img class="image__img" src="./Project Files/Images/product6.png" alt="">
                         <div class="image__overlay">
-                            <!-- <h4><span class="strike-through">N</span>500,000</h4> -->
+                            
                             <div class="image__title"><span class="strike-through">N</span>75,000</div>
                         </div>
                     </div>
@@ -129,7 +132,6 @@
     
         <div class="cart_order_container" id="cart_order_container">
             <div class="cart_order" id="cart_order">
-                <!-- <a href="javascript: reload()" style="text-decoration: none; color: black; font-family: inherit;">Click to reload</a> -->
                     <div class="cart_order_table" id="updating_EL">
                         <table class="cart_order_table01">
                             <tr class="tr_one">
@@ -151,19 +153,22 @@
                         </table>
                     </div>
                 <div class="cart_order_details_input_container">
-                    <form action="">
+                    <form action="/" id="form">
                         <div>
-                            <div>
+                            <div class="input_control">
                                 <label for="fullname"></label>
-                                <input type="text" class="cart_order_details_input" placeholder="Enter your Full Name" required>
+                                <input type="text" id="fullname" class="cart_order_details_input" placeholder="Enter your Full Name">
+                                <div class="error"></div>
                             </div>
-                            <div>
+                            <div class="input_control">
                                 <label for="email"></label>
-                                <input type="email" class="cart_order_details_input" placeholder="Email Address..." required>
+                                <input type="email" id="email" class="cart_order_details_input" placeholder="Email Address...">
+                                <div class="error"></div>
                             </div>
-                            <div>
-                                <label for="phoneNumber"></label>
-                                <input type="text" class="cart_order_details_input" placeholder="Phone Number..." required>
+                            <div class="input_control">
+                                <label for="phone_number"></label>
+                                <input type="text" id="phone_number" class="cart_order_details_input" placeholder="Phone Number...">
+                                <div class="error"></div>
                             </div>
                         </div>
                         <div class="cart_order_summary">
@@ -174,18 +179,52 @@
                         </div>
                         <div class="cart_order_actions">
                             <button type="button" class="cart_order_actions_btn ctn_shpin" id="ctn_shpin">Continue Shopping</button>
-                            <button class="cart_order_actions_btn chckot">Checkout</button>
+                            <button type="submit" class="cart_order_actions_btn chckot">Checkout</button>
                         </div>
                     </form>
+                </div>
+            </div>
+        </div>
+
+        <!-- Successful Payment Modal -->
+        <div class="summary_modal_container" id="summary_modal_container">
+            <div class="summary_modal_" id="summary_modal_">
+                <div class="summary_client_name_container">
+                    <h4>Thank You, <span id="summary_client_name" style="color: #ff7a00;"></span>, Your Order Has Been Recieved </h4>
+                </div>
+                <div class="summary_logo">
+                    <div class="summary_logo_container">
+                        <img class="summary_logo_container_img" width="27%" src="./Project Files/Images/check.svg" alt="">
+                    </div>
+                    <div class="summary_logo_text_container">
+                        <h4>Summary</h4>
+                    </div>
+                </div>
+                <div class="summary_client_purchase_item">
+                    <table class="summary_client_purchase_item_table" id="summary_client_purchase_item_table">
+                        <tr class="summary_client_purchase_item_tr" >
+                            <th style="width: 25%;">S/N</th>
+                            <th style="width: 25%;">Item</th>
+                            <th style="width: 25%;">Quantity</th>
+                        </tr>
+                        <!-- <tr class="summary_client_purchase_item_tr">
+                            <td style="width: 25%;">1</td>
+                            <td style="width: 25%;">Phone</td>
+                            <td style="width: 25%;">20</td>
+                        </tr> -->
+                    </table>
+                </div>
+                <div>
+                    <button id="summary_close_btn" onclick="summaryDisplayClose()" class="cart_order_actions_btn chckot">OK</button>
                 </div>
             </div>
         </div>
     
     </section>
     
+    <script src="https://js.paystack.co/v1/inline.js"></script> 
+    <script src="./assets/js/cart_display.js"></script>
+    <script src="./assets/js/script.js"></script>
 
-
-    <script src="./cart_display.js"></script>
-    <script src="./script.js"></script>
 </body>
 </html>
